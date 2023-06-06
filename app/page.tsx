@@ -3,8 +3,8 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-	{ name: "Projects", href: "/projects" },
-	{ name: "Contact", href: "/contact" },
+	{ name: "Proyectos", href: "/projects" },
+	{ name: "Contacto", href: "/contact" },
 ];
 
 export default function Home() {
@@ -26,35 +26,34 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-left bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<Particles
 				className="absolute inset-0 -z-10 animate-fade-in"
-				quantity={100}
+				quantity={200}
 			/>
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-				chronark
+			<h1 className="z-10 text-4xl text-transparent duration-2000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text pb-4 ">
+				alejwhoo
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Hi, my name is Andreas, I'm building serverless and open source
-					solutions at{" "}
-					<Link
+					Hola! Mi nombre es Alejandra Torres y soy una diseñadora con un pie 
+					{/* <Link
 						target="_blank"
 						href="https://upstash.com"
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						Upstash
-					</Link>
+					</Link> */}
 
 					<br />
-					and working on{" "}
-					<Link
+					en el desarrollo web y otro en las tecnologías interactivas.
+					{/* <Link
 						target="_blank"
 						href="https://planetfall.io"
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						planetfall.io
-					</Link>{" "}
-					at night.
+					</Link>{" "} */}
+					{/* at night. */}
 				</h2>
 			</div>
 		</div>
